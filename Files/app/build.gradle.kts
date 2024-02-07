@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.videoplayer"
+    namespace = "com.example.files"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.videoplayer"
-        minSdk = 23
+        applicationId = "com.example.files"
+        minSdk = 29
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"

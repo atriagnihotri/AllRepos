@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "wearos"
+rootProject.name = "Files"
 include(":app")
