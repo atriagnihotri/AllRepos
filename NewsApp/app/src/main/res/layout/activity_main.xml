@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#959595"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#B6B3B3"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEWS APP"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"/>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:id="@+id/recyclercateg"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#6C6C6C"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:id="@+id/recyclernews"/>
+
+
+
+
+</LinearLayout>
